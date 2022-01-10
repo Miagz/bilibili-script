@@ -22,7 +22,7 @@ header={
 }
 class bilibili_run():
     def __init__(self):
-        self.cookies="i-wanna-go-back=1; _uuid=68559AB1-43E4-59E9-F1086-10C23D94D8C10652836infoc; buvid3=882C6909-2AB1-4AF0-BB88-C489261A758F167629infoc; b_nut=1638064553; buvid_fp=882C6909-2AB1-4AF0-BB88-C489261A758F167629infoc; fingerprint=5cfe383d09b03a96f002efbab47ab55e; buvid_fp_plain=882C6909-2AB1-4AF0-BB88-C489261A758F167629infoc; SESSDATA=a6dc55c7,1653616580,e992a*b1; bili_jct=43a9f34e646cdc2a2576af5b1b32af0f; DedeUserID=360947223; DedeUserID__ckMd5=ba34cf7628e3b068; sid=4fukbi76; video_page_version=v_old_home; blackside_state=1; rpdid=|(J|Y||uRuR|0J'uYJ)|YR~k); b_ut=6; CURRENT_FNVAL=2000; bp_video_offset_360947223=603430844825025107"
+        self.cookies="" # 看得到我吗 在这里放cookie！
         self.cookie = self.extract_cookies(self.cookies)
     def extract_cookies(self,cookies):
         global csrf
