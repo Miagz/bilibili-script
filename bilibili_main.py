@@ -143,9 +143,9 @@ class bilibili_run():
 
     def qiye_push_msg(self,content, username='Miagz'):
         # 企业微信推送
-        AgentId = "1000002"
-        Secret = "-mV_AVdGYRXGoWktn1bQj-Cl1IHAZbtPdEAbHL6rW2M"
-        EnterpriseID = "wwd1b24771cc7b1d0d"
+        AgentId = ""
+        Secret = ""
+        EnterpriseID = ""
         Touser = "@all"
         p = push.qiye_wechat(AgentId, Secret, EnterpriseID, Touser)
         p.push_text_message('BiliBili', content, username)
